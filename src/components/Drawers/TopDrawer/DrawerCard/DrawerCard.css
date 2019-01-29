@@ -1,0 +1,14 @@
+.DrawerCard{
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  box-shadow: 0px 0px 15px #777;
+  font-family: 'Handlee';
+  flex-wrap: wrap;
+  cursor: pointer;
+}

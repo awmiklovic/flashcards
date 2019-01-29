@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+
+body{
+  margin:0px;
+  background: #eaf1f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Handlee';
+  position: relative;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+}
+
+input:focus, button:focus, textarea:focus{
+  outline: none;
+}
+
+/* Srollbar /*
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #334f70;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #334f70;
+}

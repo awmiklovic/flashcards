@@ -1,0 +1,39 @@
+.Modal{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+}
+
+.Modal__inner{
+  width: 300px;
+  background: white;
+  padding: 50px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.Modal__inner label{
+    margin-bottom: 15px;
+    display: block;
+}
+
+.Modal__inner input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.Modal__inner__close{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}

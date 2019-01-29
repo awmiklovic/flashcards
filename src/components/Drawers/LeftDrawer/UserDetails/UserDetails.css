@@ -1,0 +1,47 @@
+.UserDetails{
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 25px;
+  border-bottom: solid 2px #fafafa;
+}
+
+.UserDetails .initials{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #334f70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  font-family: 'Handlee';
+}
+
+.UserDetails .sign-out{
+  font-size: 14px;
+  margin-top: 10px;
+  color: #6990af;
+  cursor: pointer;
+}
+
+.UserDetails .sign-out:hover{
+  text-decoration: underline;
+}
+
+.UserDetails button{
+  padding: 10px;
+  width: 45%;
+  background: #6990af;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Handlee';
+  cursor: pointer;
+  margin: 0px 5px;
+}

@@ -1,0 +1,73 @@
+.LeftDrawer{
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  left: -300px;
+  top: 0;
+  background: white;
+  border-right: solid 5px #6990af;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px #ccc;
+  transition: 300ms;
+}
+
+.LeftDrawer.active{
+  left:0;
+}
+
+
+.LeftDrawer #signup-form{
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.LeftDrawer #login-form{
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.LeftDrawer #signup-form .input-group{
+  flex-direction: column;
+  padding: 0px;
+  border-bottom: none;
+  margin-bottom: 25px;
+}
+
+.LeftDrawer #login-form .input-group{
+  flex-direction: column;
+  padding: 0px;
+  border-bottom: none;
+  margin-bottom: 25px;
+}
+
+.LeftDrawer #signup-form .input-group label{
+  margin-bottom: 10px;
+  display: none;
+}
+
+.LeftDrawer #login-form .input-group label{
+  margin-bottom: 10px;
+  display: none;
+}
+
+.LeftDrawer input{
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: solid 2px #eaf1f7;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.LeftDrawer button{
+  padding: 10px;
+  width: 100%;
+  background: #6990af;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Handlee';
+  cursor: pointer;
+  box-sizing: border-box;
+}

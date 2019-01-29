@@ -1,0 +1,38 @@
+.CardItem li.card-group{
+  margin-bottom: 15px;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  background: #fafafa;
+  border: solid 2px #eaf1f7;
+  border-radius: 5px;
+}
+
+.CardItem .card-group-question{
+  padding: 10px;
+  border-bottom: solid 1px #eaf1f7;
+}
+.CardItem .card-group-answer{
+  padding: 10px;
+  border-bottom: solid 1px #eaf1f7;
+}
+
+.CardItem .card-group-action{
+  padding: 10px;
+}
+.CardItem .card-group-action i{
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.CardItem textarea {
+    resize: none;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    font-family: 'Handlee';
+    font-size: 16px;
+}

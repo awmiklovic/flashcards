@@ -1,0 +1,53 @@
+.RightDrawer{
+  position: absolute;
+  top: 0px;
+  right:-350px;
+  width: 350px;
+  transition: 300ms;
+  height: 100vh;
+  padding: 15px;
+  box-sizing: border-box;
+  background: white;
+  z-index: 100;
+  border-left: solid 5px #6990af;
+  font-family: 'Handlee';
+  overflow-y: scroll;
+}
+
+.RightDrawer h2{
+  text-align: center;
+}
+
+.RightDrawer.active{
+  right: 0px;
+  box-shadow: 0px 0px 15px #ccc;
+}
+
+.RightDrawer ul{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.RightDrawer button{
+  width: 100%;
+  padding: 10px;
+  background: #334f70;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Handlee';
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.RightDrawer button:disabled{
+  opacity: .3;
+}
+
+.RightDrawer small{
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}

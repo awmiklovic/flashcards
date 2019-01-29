@@ -1,0 +1,44 @@
+.SettingGroup{
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: solid 2px #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SettingGroup .toggle{
+  position: relative;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.SettingGroup .toggle__track{
+  width: 50px;
+  height: 30px;
+  background: #eaf1f7;
+  border-radius: 50px;
+  border: solid 2px #eaeaea;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.SettingGroup .toggle__switch{
+  width: 30px;
+  height: 30px;
+  background: #334f70;
+  border-radius: 50px;
+  left: 0px;
+  top: 0;
+  position: absolute;
+  z-index: 100;
+  transition: 300ms;
+}
+
+.SettingGroup .toggle.active .toggle__switch{
+  left: 20px;
+  background: #6990af;
+}

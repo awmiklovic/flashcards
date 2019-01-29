@@ -1,0 +1,41 @@
+.ControlPanel__icon-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  transition: 300ms;
+  backface-visibility: hidden;
+  position: relative;
+}
+
+.ControlPanel__icon-wrap:hover{
+  transform: scale(1.1);
+}
+
+.ControlPanel__icon-wrap label{
+  font-size: 14px;
+}
+
+.ControlPanel__icon-wrap i{
+  font-size: 36px;
+  color: #334f70;
+  transition: 300ms;
+  cursor: pointer;
+  margin-bottom: 0px;
+  padding: 0px 15px;
+  height: 40px;
+}
+
+.ControlPanel__icon-wrap i:hover{
+  color: #6e98ba;
+}
+
+.ControlPanel__icon-wrap number{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
